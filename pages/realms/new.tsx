@@ -34,6 +34,10 @@ const publicKeyValidationTest = (value) => {
   }
 }
 
+/**
+ * Schema to validate the create realm form
+ * @var schema
+ */
 const schema = yup.object().shape({
   governanceProgramId: yup
     .string()
